@@ -1,0 +1,21 @@
+To set up a new repository:
+Go to github.com.
+Click the little + symbol next to your avatar, and choose new repository.
+Check the 'add readme' box if you want to make notes to your repository.
+click make repository.
+
+Copy the code.
+
+Next, make a new directory on your local system.
+Move into it.
+Clone your repository from github to your computer with command git clone followed by url (ssh).
+
+test it by typing git remote -v in command line.
+
+workflow commands:
+
+git status - displays status of documents
+git add - adds documents to the staging process.
+git commit -m "message of your commitment" - commit changes and add a note on what those changes were.
+git push origin main - pushes things to github.
+git log - show log
